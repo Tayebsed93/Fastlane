@@ -1,7 +1,11 @@
 lane :bonjour do
 
-UI.success "Bravo !"
-UI.error "Non pas cool :("
+	UI.success "Bravo !"
+
+	scan(
+		project: "Fastlane.xcodeproj"
+		)
+	UI.error "Non pas cool :("
 
 
 
