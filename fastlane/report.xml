@@ -5,12 +5,7 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: scan" time="5.172333">
-        
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="1: xcov" time="1.309995">
+      <testcase classname="fastlane.lanes" name="0: get_version_number" time="1.194697">
         
       </testcase>
     
