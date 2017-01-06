@@ -3,7 +3,10 @@ lane :bonjour do
   UI.success "Bravo !"
 
   scan(
-    project: "FastlaneDemo.xcodeproj"
+    project: "FastlaneDemo.xcodeproj",
+    code_coverage: true
   )
+
+  xcov
 
 end
