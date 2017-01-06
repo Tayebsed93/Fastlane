@@ -2,10 +2,10 @@
 <testsuites name='FastlaneDemoTests.xctest' tests='4' failures='0'>
   <testsuite name='FastlaneDemoTests.FastlaneDemoTests' tests='2' failures='0'>
     <testcase classname='FastlaneDemoTests.FastlaneDemoTests' name='testExample' time='0.001'/>
-    <testcase classname='FastlaneDemoTests.FastlaneDemoTests' name='testPerformanceExample' time='0.330'/>
+    <testcase classname='FastlaneDemoTests.FastlaneDemoTests' name='testPerformanceExample' time='0.339'/>
   </testsuite>
   <testsuite name='FastlaneDemoTests.UserTests' tests='2' failures='0'>
-    <testcase classname='FastlaneDemoTests.UserTests' name='testUserDescription' time='0.001'/>
+    <testcase classname='FastlaneDemoTests.UserTests' name='testUserDescription' time='0.008'/>
     <testcase classname='FastlaneDemoTests.UserTests' name='testUserInit' time='0.001'/>
   </testsuite>
 </testsuites>
