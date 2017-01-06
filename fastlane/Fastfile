@@ -11,9 +11,18 @@ lane :bonjour do
 
 end
 
-lane :deploy do 
+lane :deploy do
 
-	version = get_version_number()
-	print version
+	if git_branch() == "master"
+		version = get_version_number()
+		set_github_release(
+			repository_name: "",
+			name: version
+			tag_name; "v#{version}",
+			api_token: ENV["GITHUB_TOKEN"],
+			description: changelog_from_git_commits()
+			commitish: "master"
+		)
+	end
 
 end
